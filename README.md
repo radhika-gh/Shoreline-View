@@ -2,8 +2,6 @@
 
 **A dynamic 2D coastal scene with interactive elements, built using OpenGL/GLUT.**  
 
-![Shoreline Demo](screenshots/demo.gif) *Replace with your screenshot*  
-
 ---
 
 ## 🚀 Features  
