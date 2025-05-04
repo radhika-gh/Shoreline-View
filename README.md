@@ -1,67 +1,49 @@
-# Computer Graphics Final Project
+# 🌊 Shoreline View Simulation  
 
-This repository contains the final project for the **Computer Graphics** course at **American International University - Bangladesh (AIUB)**. The project focuses on implementing key concepts of computer graphics using **OpenGL**.
+**A dynamic 2D coastal scene with interactive elements, built using OpenGL/GLUT.**  
 
-### Course Information
-For more details on the course, refer to the [AIUB Undergraduate Course Catalog](https://www.aiub.edu/faculties/fst/ug-course-catalog).  
-*Note: Search for "Computer Graphics" for specific course information.*
+![Shoreline Demo](screenshots/demo.gif) *Replace with your screenshot*  
 
-## Table of Contents
-- [Overview](#overview)
-- [Project Description](#project-description)
-- [Technologies Used](#technologies-used)
-- [How to Run](#how-to-run)
-- [Contact](#contact)
+---
 
-## Overview
+## 🚀 Features  
+- 🌅 **Day/Night Cycle**: Toggle between sunrise and moonlit scenes.  
+- 🛥️ **Interactive Boats**: Control two boats with keyboard (`A/D` for Boat 1, `Q/E` for Boat 2).  
+- 🚗 **Animated Cars**: Smooth movement with spinning wheels (Start/Stop with `C`).  
+- 🌧️ **Rain Effect**: Realistic rain simulation (Toggle with `R`).  
+- 🏐 **Volleyball Animation**: Throw a ball across the net (Press `V`).  
+- 🔦 **Dynamic Lighting**: Car headlights and lamp posts in night mode.  
 
-The final project demonstrates the practical application of computer graphics principles including:
+---
 
-- 2D and 3D transformations
-- Projection and viewing
-- Basic object rendering and manipulation
-- Interactive control using keyboard and mouse inputs
+## ⌨️ Keyboard Controls  
 
-The project was developed using **OpenGL** and C++, and aims to provide an interactive experience for manipulating 2D and 3D objects.
+| Key | Action |  
+|-----|--------|  
+| `A/D` | Move Boat 1 left/right |  
+| `Q/E` | Move Boat 2 left/right |  
+| `C` | Start/Stop cars |  
+| `M/N` | Day/Night mode |  
+| `R` | Toggle rain |  
+| `V` | Throw volleyball |  
+| `K` | Show controls |  
+| `Esc` | Exit |  
 
-## Project Description
+---
 
-The project involves creating a 3D environment where users can:
+## 🛠️ Getting Started  
 
-- Move objects with keyboard inputs
-- Use keyboard inputs to adjust the view (day/night)
-- Turn rain (On/Off) with keyboard inputs
-- A menu which shows all key events
+### Prerequisites  
+- OpenGL/GLUT libraries  
+- C++ compiler (e.g., GCC, MSVC)  
 
-### Features:
-- **3D Object Rendering:** Basic 3D shapes (cubes, spheres, etc.) rendered using OpenGL.
-- **Transformations:** Real-time 3D transformations (scaling, rotation, translation) applied to the objects.
-- **Interactive Controls:** Users can control object transformations via keyboard input.
-- **Projection:** Implements perspective projection to simulate depth and realism in the scene.
-
-## Technologies Used
-
-- **Programming Language:** C++
-- **Graphics Library:** OpenGL
-- **IDE:** Code::Blocks
-- **Tools:** GLUT (OpenGL Utility Toolkit)
-
-## How to Run
-
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Raihan4520/Computer-Graphics.git
-2. Ensure that OpenGL and GLUT are installed and configured properly on your machine.
-3. Open the project in your preferred IDE (e.g., Visual Studio, Code::Blocks).
-4. Build and run the project.
-
-### To Run in Code::Blocks
-1. Open the project: Go to **File > Open** and select the `.cbp` project file.
-2. Build the project: Click on **Build > Build** or press `Ctrl + F9`.
-3. Run the project: Click on **Build > Run** or press `F10`.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out through the repository's issues or contact me directly.
+### Installation  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/radhika-gh/Shoreline-View.git
+2. Compile and run:  
+   ```bash  
+   cd Shoreline-View  
+    g++ main.cpp src/Shapes.cpp src/KeyEvents.cpp -o main.exe -Iinclude -lfreeglut -            lopengl32 -lglu32 -lwinmm
+   ./main.exe 
+### 📸 Screenshots  
